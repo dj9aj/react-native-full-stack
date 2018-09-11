@@ -1,0 +1,12 @@
+export const SELECT_CANDIDATE = 'select_candidate';
+export const CANDIDATES_FETCH_SUCCESS = 'candidates_fetch_success';
+export const FETCHING_CANDIDATES = 'fetching_candidates';
+export const CANDIDATE_FETCH_SUCCESS = 'candidate_fetch_success';
+export const FETCHING_CANDIDATE = 'fetching_candidate';
+export const TOGGLE_EDIT_MODE = 'edit_mode';
+export const EDIT_MODE = 'edit_mode';
+export const LOCKED_MODE = 'locked_mode';
+export const DECREASE_RATING = 'decrease_rating';
+export const INCREASE_RATING = 'increase_rating';
+export const UPDATE_RATING = 'update_rating';
+export const CANCEL_EDIT_MODE = 'cancel_edit_mode';

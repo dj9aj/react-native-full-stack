@@ -1,0 +1,3 @@
+rootProject.name = 'circularwave_redux_project'
+
+include ':app'
