@@ -20,7 +20,7 @@ export default (state = INITIAL_STATE, action) => {
       case FETCHING_CANDIDATE:
          return { ...state, loading: true };
       case CANDIDATE_FETCH_SUCCESS:
-         return { ...state, candidate: action.payload, loading: false };
+         return { ...state, candidate: action.payload, loading: false, editMode: false };
       case TOGGLE_EDIT_MODE:
          return { ...state, editMode: action.payload };
       case DECREASE_RATING:
